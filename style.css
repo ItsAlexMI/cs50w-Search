@@ -1,0 +1,233 @@
+#search {
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left: 20px;
+  font-size: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ 
+  color: black;
+
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  text-align: center;
+  cursor: pointer;
+  /* centrar el input */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Meter una imagen dentro del input */
+  
+}
+
+#search:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#google {
+  /* Centra el logo */
+  display: block;
+  margin-bottom: 20px;
+
+  /* Poner todo al medio de la pantalla */
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+#textImagenes {
+  cursor: pointer;
+  /* Centra el logo */
+  display: block;
+  margin-bottom: 20px;
+
+  /* Poner todo al medio de la pantalla */
+  margin-left: auto;
+  margin-right: 30%;
+
+  width: 15%;
+  height: auto;
+
+  margin-bottom: 20px;
+  margin-top: -34px;
+}
+
+#buscar,
+#buscar2{
+  border: none;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 0%;
+  width: 10%;
+}
+
+#buscar:hover,
+#buscar2:hover,
+#buscarporimagen:hover,
+#buscaravanzada:hover {
+  /* Aplica un borde negro a los botones */
+  border: 2px solid rgb(156, 156, 156);
+}
+
+/* Arregla el boton para responsive */
+@media only screen and (max-width: 600px) {
+  #buscar {
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
+
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #buscar2 {
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #google {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  #textImagenes {
+    margin-top: -39px;
+    margin-right: 80px;
+  }
+
+  #googlenav {
+    display: none;
+  }
+  .anuncios {
+    display: none;
+  }
+
+
+}
+
+
+html,
+body {
+  height: 80%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+margin-top: 4%;
+}
+
+#buscarporimagen {
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  top: 2.3%;
+  font-weight: bold;
+  left: 200;
+  right: 100px;
+  
+}
+
+#buscaravanzada {
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  top: 2.3%;
+  left: 300;
+  font-weight: bold;
+  right: 290px;
+}
+
+#googlenav {
+  width: 7%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  left: 0;
+  right: 100;
+}
+
+.h1ba {
+  text-align: left;
+
+  position: absolute;
+  top: 10%;
+  left: 0;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(193, 193, 193, 0.311);
+  width: 100%;
+}
+
+#input-ba1, #input-ba2, #input-ba3, #input-ba4 {
+  border: 1px solid rgb(193, 193, 193);
+  margin-top: 5%;
+}
+
+.contenidoba {
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  font-size: 20px;
+}
+
+#input-ba1 {
+    margin-left: 10%;
+  width: 65%;
+}
+
+#input-ba2 {
+    margin-left: 3%;
+    width: 65%;
+}
+
+#input-ba3 {
+    margin-left: 1%;
+    width: 65%;
+}
+
+#input-ba4 {
+    margin-left: 4%;
+    width: 65%;
+}
+
+label {
+    font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #222222;
+}
+
+#svg4 {
+  position: absolute;
+  top: 2%;
+  left: 100;
+  right: 50px;
+  width: 2%;
+  height: auto;
+}
+
+#perfil {
+  position: absolute;
+  top: 1.5%;
+  left: 100;
+  
+  right: 2px;
+  width: 2.5%;
+  height: auto;
+
+}
+
